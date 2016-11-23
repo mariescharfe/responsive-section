@@ -22,16 +22,33 @@ body {
   margin: 0;
 }
 
-section .wrapper {
-  overflow: hidden;
+section {
   background-color: #e5c30a;
-  padding: 1.3rem;
 }
 
-.section-letter,
+.wrapper {
+  padding: 1.3rem;
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+section .wrapper {
+  overflow: hidden;
+}
+
+.section-letter {
+  width: 49%;
+  float: left;
+}
+
 .section-icon {
   width: 49%;
   float: left;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 section h2 {
