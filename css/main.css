@@ -18,6 +18,30 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+section .wrapper {
+  overflow: hidden;
+  background-color: #e5c30a;
+  padding: 1.3rem;
+}
+
+.section-letter,
+.section-icon {
+  width: 49%;
+  float: left;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
